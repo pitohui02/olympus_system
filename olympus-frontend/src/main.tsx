@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import './index.css'
 import Login from './pages/Login'
+import UserRegistration from './pages/User_Registration'
 
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
+  {
+    path: "/register",
+    element: <UserRegistration />
+  }
 
 
 ])
