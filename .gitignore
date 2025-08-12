@@ -1,0 +1,26 @@
+# Logs
+logs
+olympus-frontend/*.log
+olympus-frontend/npm-debug.log*
+olympus-frontend/yarn-debug.log*
+olympus-frontend/yarn-error.log*
+olympus-frontend/pnpm-debug.log*
+olympus-frontend/lerna-debug.log*
+
+olympus-frontend/node_modules
+olympus-frontend/dist
+olympus-frontend/dist-ssr
+olympus-frontend/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.ENV
