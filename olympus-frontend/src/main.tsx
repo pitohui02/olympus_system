@@ -1,10 +1,13 @@
 import { StrictMode } from 'react'
 import './index.css'
-import Login from './pages/Login'
-import UserRegistration from './pages/User_Registration'
+
+
 
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Login from './pages/Login'
+import Registration from './pages/Register'
 
 const router = createBrowserRouter([
   {
@@ -18,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/register",
-    element: <UserRegistration />
+    element: <Registration />
   }
 
 

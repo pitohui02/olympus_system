@@ -4,7 +4,7 @@ import title from '../assets/title.svg';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 
-function UserRegistration() {
+function Registration() {
   return (
     <div
       className="fixed top-0 left-0 w-full h-full bg-fixed bg-cover bg-center flex flex-row items-center justify-center gap-10"
@@ -40,4 +40,4 @@ function UserRegistration() {
   );
 }
 
-export default UserRegistration;
+export default Registration;
